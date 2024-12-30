@@ -15,7 +15,6 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp C>;
             label = "SUPERGLIDE";
-            wait-ms = <6>;
         };
     };
 
