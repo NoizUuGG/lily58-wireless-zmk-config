@@ -12,16 +12,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    macros {
-        superglide: superglide {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE &kp C>;
-            label = "SUPERGLIDE";
-            wait-ms = <1>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
