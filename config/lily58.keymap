@@ -23,7 +23,6 @@
 &msc {
     x-input-code = <INPUT_REL_HWHEEL>;
     y-input-code = <INPUT_REL_WHEEL>;
-    trigger-period-ms = <0>;
     time-to-max-speed-ms = <0>;
     acceleration-exponent = <0>;
 };
